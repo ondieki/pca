@@ -14,4 +14,12 @@ describe Pca do
 	it 'returns mu, the mean of each feature i.e. row-wise means' do
 		Pca.mu(Matrix[ [1,4,4],[4,6,8],[7,8,9] ]).should == Vector[3,6,8]
 	end	
+
+	it 'Run SVD, in pca method' do
+
+	end
+
+	it 'projects the data, perhaps for visualization' do
+
+	end
 end
