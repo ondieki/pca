@@ -16,10 +16,10 @@ describe Pca do
 	end	
 
 	it 'Run SVD, in pca method' do
-
+		Pca.svd(mat)
 	end
 
 	it 'projects the data, perhaps for visualization' do
-
+		Pca.projectData(mat)
 	end
 end
